@@ -165,7 +165,8 @@ margin-right: 12px;
     background: #eee;
 }
 
-.link {
+
+.link a{
     display: inline-block;
     background: red;
     padding: 15px 30px;
@@ -174,13 +175,14 @@ margin-right: 12px;
     margin-bottom: 20px;
 }
 
-.link:hover {
+.link a:hover {
     box-shadow: 0 4px 2px 2px rgb(238, 82, 82);
 }
 
-.link:active {
+.link a:active {
     box-shadow: 0 2px 2px 2px rgb(238, 82, 82);
 }
+
 
 .link-text {
     color: #fff;

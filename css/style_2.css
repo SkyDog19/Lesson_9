@@ -54,28 +54,31 @@ h1:hover {
 }
 
 h2 {
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 40px;
-    border: 8px solid rgb(11, 11, 88);
     max-width: 700px;
-    padding: 50px;
     margin: 0 auto 30px;
-    text-transform: capitalize;
-    border-radius: 20%/70%;
-    background: url("../img/h4.gif") center/cover no-repeat;
-}
-
-h2:hover {
-    box-shadow: 5px 5px 1px 1px blue;
-}
-
-h2:active {
-    box-shadow: 3px 3px 1px 1px blue;
+    
 }
 
 h2 a {
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
     color: blue;
+    text-transform: capitalize;
+    border-radius: 20%/70%;
+    border: 10px solid rgb(10, 5, 85);
+    background: url("../img/h4.gif") center/cover no-repeat;
+}
+
+
+h2 a:hover {
+    box-shadow: 5px 5px 1px 1px blue;
+}
+
+h2 a:active {
+    box-shadow: 3px 3px 1px 1px blue;
 }
 
 .text-description {

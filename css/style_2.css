@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'Ayuthaya';
+    src: url('Ayuthaya.eot');
+    src: local('Ayuthaya'),
+        url('../fonts/Ayuthaya.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ayuthaya.woff2') format('woff2'),
+        url('../fonts/Ayuthaya.woff') format('woff'),
+        url('../fonts/Ayuthaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: local('Zen Kaku Gothic New Medium'), local('Zen-Kaku-Gothic-New-Medium'),
+        url('../fonts/ZenKakuGothicNew-Medium.woff2') format('woff2'),
+        url('../fonts/ZenKakuGothicNew-Medium.woff') format('woff'),
+        url('../fonts/ZenKakuGothicNew-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    background: url("../img/videocardsbg2.jpg") center/cover repeat;
+}
+
+.wreaper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    max-width: 800px;
+    margin: 20px auto 40px;
+}
+
+h1 {
+    font-family: 'Ayuthaya';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 13px;
+}
+
+h1:hover {
+    background: url("../img/h4.gif") center/cover no-repeat;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 40px;
+    border: 8px solid rgb(11, 11, 88);
+    max-width: 700px;
+    padding: 50px;
+    margin: 0 auto 30px;
+    text-transform: capitalize;
+    border-radius: 20%/70%;
+    background: url("../img/h4.gif") center/cover no-repeat;
+}
+
+h2:hover {
+    box-shadow: 5px 5px 1px 1px blue;
+}
+
+h2:active {
+    box-shadow: 3px 3px 1px 1px blue;
+}
+
+h2 a {
+    color: blue;
+}
+
+.text-description {
+    text-align: center;
+    padding: 15px;
+}
+
+.text-description:hover {
+    background: url("../img/h4.gif") center/cover no-repeat;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 22px;
+    color: rgb(154, 154, 231);
+}
+
+.main {
+    margin-bottom: 50px;
+    
+}
+
+/* ============Игра============== */
+
+.game {
+    width: 1000px;
+    background: rgb(2,0,36);
+    background: linear-gradient(32deg, rgb(80, 71, 238) 0%, rgba(9,30,121,0.8183648459383753) 0%, rgba(11,78,177,0.3561799719887955) 0%, rgba(0,108,255,1) 0%, rgba(8,47,199,0.7539390756302521) 82%);
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 10px solid rgb(11, 37, 109);
+    visibility: hidden;
+    
+}
+
+.game:target {
+    visibility: visible;
+}
+
+.block-gameone {
+    display: inline-block;
+    width: 50px;
+    height: 300px;
+    background: red;
+    margin: 0 0 0 100px;
+}
+
+.block-gameone::after {
+    display: inline-block;
+    content: "";
+    background: red;
+    width: 100px;
+    height: 35px;
+    margin: 265px 0 0 0;
+}
+
+.block-gametwo {
+    display: inline-block;
+    background: red;
+    width: 600px;
+    height: 35px;
+    margin: 0 0 0 45px;
+    visibility: hidden;
+}
+
+.block-gametwo::after {
+    background: red;
+    display: block;
+    content: "";
+    width: 25px;
+    height: 80px;
+    margin: 0 0 0 600px;
+    visibility: hidden;
+}
+
+.block-gamethree {
+    display: inline-block;
+    width: 25px;
+    height: 200px;
+    margin: -3px 0 0 799px;
+    background: red;
+    visibility: hidden;
+}
+
+
+.block-gamethree::before {
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 15px;
+    background: red;
+    margin: 200px 0 0 -25px;
+    visibility: hidden;
+
+}
+
+.block-gamefo {
+    display: inline-block;
+    width: 400px;
+    height: 15px;
+    background: red;
+    margin: 0 0 0 -453px;
+    visibility: hidden;
+}
+
+.block-gamefo::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: red;
+    margin: 15px 0 -20px 0;
+    visibility: hidden;
+}
+
+.block-gamesix {
+    display: inline-block;
+    width: 10px;
+    height: 200px;
+    background: red;
+    margin: -5px 0 0 375px;
+    visibility: hidden;
+    
+}
+
+.block-gamesix::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    background: red;
+    margin: 190px 0 0 0;
+    visibility: hidden;
+    
+}
+
+.block-final {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: black;
+    margin: -20px 0 0 394px;
+    visibility: hidden;
+    
+}
+
+.block-finaltwo {
+    display: block;
+    width: 500px;
+    height: 500px;
+    background: url("../img/videocrfinal.jpg") center/cover no-repeat;
+    margin: 0 auto;
+    visibility: hidden;
+    
+}
+
+/* ==========game hover============== */
+.block-gameone:hover  ~ .block-gametwo,
+.block-gametwo:hover, .block-gametwo:hover::after{
+   visibility: visible;
+}
+
+.block-gametwo:hover ~ .block-gamethree,
+.block-gamethree:hover, .block-gamethree:hover::before{
+   visibility: visible;
+}
+
+.block-gamethree:hover ~ .block-gamefo,
+.block-gamefo:hover, .block-gamefo:hover::after{
+   visibility: visible;
+}
+
+.block-gamefo:hover ~ .block-gamesix, .block-gamesix:hover, .block-gamesix:hover::after {
+   visibility: visible;
+}
+
+.block-gamesix:hover ~ .block-final, .block-final:hover {
+    visibility: visible;
+}
+
+.block-final:hover ~ .block-finaltwo, .block-finaltwo:hover {
+    visibility: visible;
+}
+
+
+
+
+/* ==========финал================ */
+.footer {
+    max-width: 1000px;
+    text-indent: 30px;
+    margin: 0 auto 100px;
+    border: 10px solid #000;
+    padding: 50px 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: blue url("../img/footer.gif") center/400px repeat;
+}
+
+.footer p {
+    font-family: 'Zen Kaku Gothic New';
+    font-size: 22px;
+    color: rgb(203, 203, 243);
+    font-size: 40px;
+}
+
+.footer p:hover {
+    background: rgb(127, 127, 248);
+}

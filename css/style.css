@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: local('../fonts/Lato Regular'), local('Lato-Regular'),
+        url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.eot');
+    src: local('../fonts/Lato Bold'), local('Lato-Bold'),
+        url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.wreaper {
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 810px;
+    margin: 50px auto 0;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 1.3;
+margin-bottom: 26px;
+}
+
+.datatime li {
+    background: url("../img/Calendar.svg") 0 0/auto no-repeat;
+    padding-left: 24px;
+    min-height: 26px;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+[class*="text-normal"] {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.6;
+color: #424551;
+}
+
+.image {
+    margin-bottom: 60px;
+}
+
+.text-bold {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 1.5;
+margin-bottom: 16px;
+}
+
+.text-normal p:not(:last-child) {
+    margin-bottom: 38px;
+}
+
+.text-boldicon {
+    background: url("../img/braces.svg") 0 0/auto auto no-repeat;
+    margin: 48px 0;
+    padding-left: 58px;
+
+}
+
+.text-boldicon p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 1.5;
+}
+
+.text-normaltwo {
+    margin-bottom: 24px;
+}
+
+.list {
+    margin-bottom: 24px;
+}
+
+.list li {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.6;
+padding-left: 32px;
+}
+
+.list li::before {
+    content: "";
+    display: inline-block;
+    background: url("../img/check.svg") 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 16px -5px -32px;
+}
+
+.list li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.text-normal-final {
+    margin-bottom: 63px;
+}
+
+.block-share {
+    display:block;
+    text-align: right;
+    
+
+}
+
+.block-share p{
+    display: inline-block;
+    color: #1E212C;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+margin-right: 12px;
+
+}
+
+.list-share {
+    display: inline-block;
+}
+
+.list-share li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.list-share li:hover {
+    background: #eee;
+}
+
+.link {
+    display: inline-block;
+    background: red;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(238, 82, 82);
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    box-shadow: 0 4px 2px 2px rgb(238, 82, 82);
+}
+
+.link:active {
+    box-shadow: 0 2px 2px 2px rgb(238, 82, 82);
+}
+
+.link-text {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.link-text::after {
+    content: "→";
+}
+
+.link-text:hover {
+    color: rgb(230, 174, 174);
+}

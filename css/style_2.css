@@ -84,9 +84,6 @@ h2 a:active {
 .text-description {
     text-align: center;
     padding: 15px;
-}
-
-.text-description:hover {
     background: url("../img/h4.gif") center/cover no-repeat;
     border-radius: 20px;
 }
@@ -95,6 +92,7 @@ p {
     font-family: 'Zen Kaku Gothic New';
     font-size: 22px;
     color: rgb(154, 154, 231);
+    line-height: 1.5;
 }
 
 .main {

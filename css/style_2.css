@@ -53,13 +53,13 @@ h1:hover {
     border-radius: 20px;
 }
 
-h2 {
+.block-btn {
     max-width: 700px;
     margin: 0 auto 30px;
     
 }
 
-h2 a {
+.block-btn a {
     display: block;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -73,13 +73,14 @@ h2 a {
 }
 
 
-h2 a:hover {
+.block-btn a:hover {
     box-shadow: 5px 5px 1px 1px blue;
 }
 
-h2 a:active {
+.block-btn a:active {
     box-shadow: 3px 3px 1px 1px blue;
 }
+
 
 .text-description {
     text-align: center;
